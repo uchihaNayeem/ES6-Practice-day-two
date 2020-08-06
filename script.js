@@ -65,16 +65,40 @@ garmentMachine();
 
 let kokohnoVarEmptyHoleOrPlaceKhaliHole = null; //... use kore
 
-
-
-
-
-
-
-
 /* --- END --- */
+
+
 //24.4 
 //DOUBLE EQUAL (==) VS TRIPLE EQUAL (===), IMPLICIT CONVERSION
+
+let firstNum = 2;
+let secondNum = `2`;
+
+if (firstNum == secondNum) {
+  console.log(`this condition is true`);
+
+  
+}else{
+  console.log(`this condition is false`); // === value type duitai check korbe
+}
+
+// Interesting nicher ta
+
+let one = 1;
+let zero = true;
+
+if (one == zero) {
+  console.log(`this condition is true`);
+
+  
+}else{
+  console.log(`this condition is false`); 
+}
+
+
+
+
+
 /* --- END --- */
 //24.5 
 //MAP, FILTER, FIND, SMART WAY TO RUN FOR LOOP
