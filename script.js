@@ -85,7 +85,7 @@ if (firstNum == secondNum) {
 // Interesting nicher ta
 
 let one = 1;
-let zero = true;
+let zero = false; // akhane 'false' mane 0, 'true' mane 1
 
 if (one == zero) {
   console.log(`this condition is true`);
@@ -95,13 +95,38 @@ if (one == zero) {
   console.log(`this condition is false`); 
 }
 
-
-
-
-
 /* --- END --- */
+
 //24.5 
 //MAP, FILTER, FIND, SMART WAY TO RUN FOR LOOP
+
+// simple Squre from an Array 
+
+const numbersStack = [2, 4, 5, 6, 45, 67];
+const output = [];
+
+for(let i=0; i < numbersStack.length; i++){
+  const element = numbersStack[i];
+  const squre = element * element;
+  console.log(squre);
+  output.push(squre);
+}
+
+console.log(output); 
+console.log(`1st: numberStake array nisi
+2nd: for loop banalam
+3rd: VAR element er vitore akta akta kore rakhlam
+4th: new squre er vitore (element * element) korlam
+5th: for er baire akta empty array nilam.
+6th: for er vitore push korlam`); 
+
+
+
+
+
+
+
+
 /* --- END --- */
 //24.6 
 //APPLY MAP, FILTER, FIND ON AN ARRAY OF OBJECTS
