@@ -40,7 +40,59 @@ if (namay || namay == 0) {
 
 /* --- END --- */
 
-//24.03
+//24.03 
+// NULL VS UNDEFINED, DIFFERENT WAYS YOU WILL GET UNDEFINED
 
+// undefind, holo jeta set korinai but ani call kortesi
+
+let garment;
+console.log(garment); // value na dile undefined
+
+function garmentCloth(cloth){
+  console.log(`this is ${cloth}`);
+}
+
+garmentCloth(); //parameter pass na korle & `return` na dile
+
+function garmentMachine(){
+  const add = 12 + 12;
+  console.log(add);
+  return add
+}
+
+garmentMachine();
+
+
+let kokohnoVarEmptyHoleOrPlaceKhaliHole = null; //... use kore
+
+
+
+
+
+
+
+
+/* --- END --- */
+//24.4 
+//DOUBLE EQUAL (==) VS TRIPLE EQUAL (===), IMPLICIT CONVERSION
+/* --- END --- */
+//24.5 
+//MAP, FILTER, FIND, SMART WAY TO RUN FOR LOOP
+/* --- END --- */
+//24.6 
+//APPLY MAP, FILTER, FIND ON AN ARRAY OF OBJECTS
+/* --- END --- */
+//24.7 
+//SCOPE, BLOCK SCOPE, ACCESS OUTER SCOPE VARIABLE
+/* --- END --- */
+//24.8 
+//CLOSURE, ENCAPSULATION, PRIVATE VARIABLE
+/* --- END --- */
+//24.9 
+//ARRAY SLICE, SPLICE, ARRAY JOIN ELEMENTS
+/* --- END --- */
+//24.10 
+//MODULE SUMMARY AND OVERVIEW
+/* --- END --- */
 
 
