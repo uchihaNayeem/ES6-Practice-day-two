@@ -102,6 +102,17 @@ if (one == zero) {
 
 // simple Squre from an Array 
 
+console.log(`const numbersStack = [2, 4, 5, 6, 45, 67];
+const output = [];
+
+for(let i=0; i < numbersStack.length; i++){
+  const element = numbersStack[i];
+  const squre = element * element;
+  console.log(squre);
+  output.push(squre);
+}`);
+
+
 const numbersStack = [2, 4, 5, 6, 45, 67];
 const output = [];
 
@@ -112,13 +123,19 @@ for(let i=0; i < numbersStack.length; i++){
   output.push(squre);
 }
 
-console.log(output); 
+console.log(output);
+ 
 console.log(`1st: numberStake array nisi
 2nd: for loop banalam
-3rd: VAR element er vitore akta akta kore rakhlam
+3rd: const element er vitore akta akta kore rakhlam
 4th: new squre er vitore (element * element) korlam
 5th: for er baire akta empty array nilam.
 6th: for er vitore push korlam`); 
+
+console.warn(`24.5 MAP, FILTER, FIND, SMART WAY TO RUN FOR LOOP alada FILE a practice korsi`)
+
+
+//
 
 
 
