@@ -59,3 +59,61 @@ console.log(bigger); // output array er vitore dekhabe
 
 const isThere = marks.find(x => x > 13); // find shudhu akta value dekhabe
 console.log(isThere);
+
+
+
+
+
+
+const students = [
+  {id: 10, name: `omar sunny`},
+  {id: 12, name: `akbar`},
+  {id: 13, name: `anthony`},
+  {id: 14, name: `miraj`},
+  {id: 15, name: `mithu`}
+]
+
+for(let i = 0; i < students.length; i++){
+  
+  const elements = students[i];
+  console.log(elements);
+}
+
+
+students.forEach(function (student) {
+  var x = student.name + 2;
+  console.log(x);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
