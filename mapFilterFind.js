@@ -73,22 +73,38 @@ const students = [
   {id: 15, name: `mithu`}
 ]
 
-for(let i = 0; i < students.length; i++){
-  
-  const elements = students[i];
-  console.log(elements);
-}
 
+
+
+const school = students.map(s => s.name);
+const schoolId = students.map(s => s.id);
+const schoolId2 = students.filter(s => s.id > 13);
+const schoolId3 = students.find(s => s.id > 13);
+console.log(schoolId3);
+
+
+
+/*
+
+// for(let i = 0; i < students.length; i++){
+  
+//   const elements = students[i];
+//   console.log(elements);
+// }
+
+const outside = [];
 
 students.forEach(function (student) {
   var x = student.name + 2;
   console.log(x);
+  outside.push(x);
+
 });
 
+console.log(outside);
 
 
-
-
+*/
 
 
 
