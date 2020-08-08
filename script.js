@@ -147,16 +147,11 @@ console.warn(`24.5 MAP, FILTER, FIND, SMART WAY TO RUN FOR LOOP alada FILE a pra
 /* --- END --- */
 //24.6 
 //APPLY MAP, FILTER, FIND ON AN ARRAY OF OBJECTS
+
+console.log(`done in new file`);
 /* --- END --- */
-//24.7 
-//SCOPE, BLOCK SCOPE, ACCESS OUTER SCOPE VARIABLE
-/* --- END --- */
-//24.8 
-//CLOSURE, ENCAPSULATION, PRIVATE VARIABLE
-/* --- END --- */
-//24.9 
-//ARRAY SLICE, SPLICE, ARRAY JOIN ELEMENTS
-/* --- END --- */
+
+
 //24.10 
 //MODULE SUMMARY AND OVERVIEW
 /* --- END --- */

@@ -107,7 +107,78 @@ console.log(outside);
 */
 
 
+//24.7 
+//SCOPE, BLOCK SCOPE, ACCESS OUTER SCOPE VARIABLE
 
+
+
+
+
+
+
+/* --- END --- */
+
+
+//24.8 
+//CLOSURE, ENCAPSULATION, PRIVATE VARIABLE
+
+
+function stopWatch(){
+  let count = 0;
+  return function(){
+    count++;
+    return count;
+  }
+}
+
+let clock1 = stopWatch();
+let clock2 = stopWatch();
+
+console.log(clock1());
+console.log(clock1());
+console.log(clock1());
+
+console.log(clock2());
+console.log(clock2());
+
+console.log(clock1());
+
+console.log(clock2());
+
+/* clouser holo Func er return a akta function. jetake alada variable rekhe jekhono time a call kora jay */
+
+
+
+/* --- END --- */
+
+
+
+//24.9 
+//ARRAY SLICE, SPLICE, ARRAY JOIN ELEMENTS
+
+const employeeSalary = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+const part = employeeSalary.slice(2, 7);
+const part2 = employeeSalary.splice(2, 4, 12, 12, 12,12, 12);
+
+
+console.log(employeeSalary);
+console.log(part2);
+console.log(part);
+
+const gaurdSalary = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+const gaurd = gaurdSalary.join(`-`);
+console.log(gaurd);
+
+const gaurd1 = gaurdSalary.join(`, `);
+console.log(gaurd1);
+
+
+
+
+
+/* --- END --- */
 
 
 
