@@ -175,6 +175,21 @@ const gaurd1 = gaurdSalary.join(`, `);
 console.log(gaurd1);
 
 
+/* --- END --- */
+
+
+//24.10 
+//MODULE SUMMARY AND OVERVIEW
+
+// aita abar dekhte hobe pore
+
+
+
+
+
+
+
+
 
 
 
